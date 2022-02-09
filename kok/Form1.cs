@@ -22,6 +22,7 @@ namespace kok
             int a = Convert.ToInt32(textBox1.Text);
             int b = Convert.ToInt32(textBox2.Text);
             label1.Text = Convert.ToString(a + b);
+            label2.Text = Convert.ToString(a - b);
         }
     }
 }
